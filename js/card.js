@@ -54,7 +54,7 @@ export class Card {
             date: [...this.DOM.date.querySelectorAll('.char')],
             title: [...this.DOM.title.querySelectorAll('.char')],
             link: [...this.DOM.link.querySelectorAll('.char')]
-        }; 
+        };
         
         // Save those initial char values
         [...this.chars.date, ...this.chars.title, ...this.chars.link].forEach(char => {
